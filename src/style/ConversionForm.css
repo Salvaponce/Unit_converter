@@ -1,0 +1,50 @@
+
+@media screen and (max-width: 600px) and (min-width: 350px){
+    .conversion-form{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    }
+}
+
+@media scree and (max-width: 1920px) and (min-width: 900px){
+    .conversion-form{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    }
+}
+
+
+.conversion-input{
+    width: 350px;
+    font-size: 18px;
+    background-color: blueviolet;
+    color: white;
+    padding: 14px 32px 14px 16px;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid black;
+    outline: none;
+}
+
+.conversion-button{
+    padding: 16px;
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    outline: none;
+    background-color:blueviolet;
+    color: white;
+    text-transform: capitalize;
+}
+
+.converter-words{
+    color: white;
+    margin-left: 5px;
+}

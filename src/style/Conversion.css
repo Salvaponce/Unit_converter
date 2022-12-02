@@ -1,0 +1,49 @@
+.converter-contenedor{
+    width: 500px;
+    min-height: 65px;
+    margin: 5px 0;
+    padding: 8px 15px 8px 20px;
+    background-color: slategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.converter-text {
+    color: black;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    overflow-wrap: anywhere;
+}
+
+.converter-icon{
+    color:black;
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+}
+
+/* */
+
+.converter-contenedor.removed {
+    background-color: red;
+    text-decoration: line-through;
+}
+
+.tarea-contenedor:nth-child(3n + 1){
+    background-color:palegoldenrod;
+}
+
+.tarea-contenedor:nth-child(3n + 2){
+    background-color:paleturquoise;
+}
+
+.tarea-contenedor:nth-child(3n + 3){
+    background-color:palegreen;
+}
