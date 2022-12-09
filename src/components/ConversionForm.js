@@ -23,6 +23,8 @@ function ConversionForm(props){
       id: uuidv4(),
       text: `${input} ${choose[0]} -> ${calc(choose[0], input)} ${choose[1]}`
     }
+    e.target.reset();
+    setInput(0)
     props.onSubmit(newConversion);
   };
 
